@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    width: 25vw;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right {
+    width: 75vw;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item img {
+    width: 15px;
+    height: auto;
+    margin-right: 5px;
+    padding: 10px 0px;
+}
